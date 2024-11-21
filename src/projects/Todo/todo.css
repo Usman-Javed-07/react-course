@@ -196,3 +196,12 @@ section {
   .clear-btn:hover {
     background-color: #8d1407;
   }
+
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+
+}
+span {
+    font-size: 2rem;
+}
