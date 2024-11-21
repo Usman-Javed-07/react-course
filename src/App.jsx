@@ -6,8 +6,8 @@ import "./components/Netflix.module.css"
 // import React from "react"
 // import {DerivedState} from './components/DericesState'
 // import React from "react"
-import { LiftState } from "./components/liftStateUp"
-
+// import { LiftState } from "./components/liftStateUp"
+import { ToggleSwitch  } from "./projects/ToggleSwitch/ToggleSwitch"
 
 // export const App = ()=>{
 //   return React.createElement('h1', null, "Hello . welcome to react course") 
@@ -27,8 +27,8 @@ export const App = ()=> {
 
      {/* <State/> */}
      {/* <DerivedState/> */}
-     <LiftState/>
-
+     {/* <LiftState/> */}
+    <ToggleSwitch/>
     {/* <Header/> */}
  {/* </React.Fragment> */}
 
