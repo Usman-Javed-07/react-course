@@ -1,0 +1,34 @@
+/* 
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-radius: 30px;
+    background-color: aqua;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+} */
+
+.section-main {
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.section-main button {
+    border-radius: 10px;
+    background-color: chocolate;
+    padding: 10px 20px;
+    color: aliceblue;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Inception",
+    "id": "MOV001",
+    "image_url": "inception.jpg",
+    "rating": 8.8,
+    "description": "A skilled thief is offered a chance to erase his criminal record by performing an almost impossible task: inception.",
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "genre": ["Sci-Fi", "Thriller"],
+    "watch_url": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+  },
+  {
+    "name": "The Dark Knight",
+    "id": "MOV002",
+    "image_url": "dark night.jpg",
+    "rating": 9.0,
+    "description": "Batman faces the Joker, a criminal mastermind wreaking havoc on Gotham City.",
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "genre": ["Action", "Drama"],
+    "watch_url": "https://example.com/watch/dark-knight"
+  },
+  {
+    "name": "Interstellar",
+    "id": "MOV003",
+    "image_url": "queen of tears.jpg",
+    "rating": 8.6,
+    "description": "A team of explorers travels through a wormhole in space to ensure humanity's survival.",
+    "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "genre": ["Sci-Fi", "Adventure"],
+    "watch_url": "https://example.com/watch/interstellar"
+  },
+  {
+    "name": "The Matrix",
+    "id": "MOV004",
+    "image_url": "matrix.jpg",
+    "rating": 8.7,
+    "description": "A hacker discovers the truth about his reality and his role in the war against its controllers.",
+    "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "genre": ["Sci-Fi", "Action"],
+    "watch_url": "https://example.com/watch/matrix"
+  },
+  {
+    "name": "Parasite",
+    "id": "MOV005",
+    "image_url": "parasiete.png",
+    "rating": 8.6,
+    "description": "A poor family schemes to become employed by a wealthy household by infiltrating their lives.",
+    "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+    "genre": ["Drama", "Thriller"],
+    "watch_url": "https://example.com/watch/parasite"
+  }
+]
