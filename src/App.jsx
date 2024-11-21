@@ -1,5 +1,5 @@
 // import "./components/netflix.css"
-import "./components/Netflix.module.css"
+// import "./components/Netflix.module.css"
 // import   NetflixSeris, {Footer} from "./components/NetflixSeries"
 // import {EventHandling} from "./components/EventHandling"
 // import {State} from "./components/Hooks/state"
@@ -7,7 +7,8 @@ import "./components/Netflix.module.css"
 // import {DerivedState} from './components/DericesState'
 // import React from "react"
 // import { LiftState } from "./components/liftStateUp"
-import { ToggleSwitch  } from "./projects/ToggleSwitch/ToggleSwitch"
+// import { ToggleSwitch  } from "./projects/ToggleSwitch/ToggleSwitch"
+import { Todo } from "./projects/Todo/todo"
 
 // export const App = ()=>{
 //   return React.createElement('h1', null, "Hello . welcome to react course") 
@@ -19,16 +20,17 @@ export const App = ()=> {
     <> 
     {/* <React.Fragment> use this <> insted of using react-fragments */}
  <section className="container">
-  <h1 className="cart-heading">best netflix series cart</h1>
+  {/* <h1 className="cart-heading">best netflix series cart</h1> */}
      {/* <NetflixSeris/> */}
     </section> 
      {/* <Footer/> */}
      {/* <EventHandling /> */}
+   <section>{<Todo/>}</section>
 
      {/* <State/> */}
      {/* <DerivedState/> */}
      {/* <LiftState/> */}
-    <ToggleSwitch/>
+    {/* <ToggleSwitch/> */}
     {/* <Header/> */}
  {/* </React.Fragment> */}
 
