@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container Styling */
+  div {
+    background-color: #ffffff;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  /* Heading Styling */
+  .hook-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3b82f6;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Paragraph Styling */
+  .hook-para {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin: 1.5rem 0;
+    background: linear-gradient(90deg, #3b82f6, #9333ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Button Styling */
+  .hook-btn {
+    background: linear-gradient(90deg, #3b82f6, #9333ea);
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.85rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3), 0 1px 3px rgba(59, 130, 246, 0.2);
+  }
+  
+  .hook-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(59, 130, 246, 0.4), 0 3px 6px rgba(59, 130, 246, 0.3);
+  }
+  
+  .hook-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
+  }
+  

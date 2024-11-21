@@ -9,7 +9,11 @@
 // import { LiftState } from "./components/liftStateUp"
 // import { ToggleSwitch  } from "./projects/ToggleSwitch/ToggleSwitch"
 // import { Todo } from "./projects/Todo/todo"
- import { ShortCircuitExample  } from "./components/Hooks/shortCircuit"
+//  import { ShortCircuitExample  } from "./components/Hooks/shortCircuit"
+import { Counter } from "./components/Hooks/index"
+
+
+
 // export const App = ()=>{
 //   return React.createElement('h1', null, "Hello . welcome to react course") 
 // }
@@ -27,11 +31,12 @@ export const App = ()=> {
      {/* <EventHandling /> */}
    {/* <section>{<Todo/>}</section> */}
 
+    <Counter/>
      {/* <State/> */}
      {/* <DerivedState/> */}
      {/* <LiftState/> */}
     {/* <ToggleSwitch/> */}
-    <ShortCircuitExample/>
+    {/* <ShortCircuitExample/> */}
     {/* <Header/> */}
  {/* </React.Fragment> */}
 
