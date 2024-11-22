@@ -1,0 +1,58 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb; /* Soft light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Heading Container */
+  .heading {
+    background-color: #fff; /* White background for the container */
+    padding: 40px 60px; /* Spacing inside the container */
+    border-radius: 12px; /* Rounded corners for the container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    text-align: center; /* Center-aligning the text */
+    max-width: 500px; /* Maximum width for the container */
+    width: 100%; /* Full width on smaller screens */
+    box-sizing: border-box;
+  }
+  
+  /* Heading Styling */
+  .heading h1 {
+    font-size: 3rem; /* Large font size for the heading */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Dark grey text color */
+    letter-spacing: 1px; /* Slight letter spacing for modern touch */
+    text-transform: capitalize; /* Capitalizing the first letter of each word */
+    margin: 0; /* Removing default margin */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation for the text */
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Starts slightly above */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Ends in original position */
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .heading {
+      padding: 30px 20px; /* Reduced padding on smaller screens */
+    }
+  
+    .heading h1 {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+  }
+  

@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc; /* Soft neutral background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #fff; /* White background for the container */
+    padding: 30px 40px; /* Spacious padding */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    text-align: center; /* Center-align content */
+    max-width: 400px; /* Maximum width for container */
+    width: 100%; /* Full width for smaller screens */
+    box-sizing: border-box;
+  }
+  
+  /* Heading Styling */
+  .container h1 {
+    font-size: 2.5rem; /* Large heading size */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px; /* Space below the heading */
+    letter-spacing: 1px; /* Slight letter spacing for a modern look */
+  }
+  
+  /* Paragraph Styling */
+  .container p {
+    font-size: 1rem; /* Base font size for text */
+    color: #555; /* Medium gray for paragraph text */
+    margin: 15px 0; /* Spacing between paragraphs */
+    line-height: 1.5; /* Improved readability */
+  }
+  
+  /* Span Styling */
+  .container p span {
+    font-weight: 600; /* Slightly bolder for emphasis */
+    color: #007bff; /* Blue color to draw attention */
+  }
+  
+  /* Button Styling */
+  .container button {
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text for contrast */
+    padding: 10px 20px; /* Padding for clickability */
+    font-size: 1rem; /* Standard button size */
+    font-weight: 600; /* Bold text for emphasis */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .container button:active {
+    transform: scale(0.95); /* Slight shrink on click */
+  }
+  
+  /* Input Field Styling */
+  .container input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Padding for readability */
+    font-size: 1rem; /* Base font size */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    margin-top: 10px; /* Space above input */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Focus effects */
+  }
+  
+  .container input[type="text"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Subtle glow effect */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .container h1 {
+      font-size: 2rem; /* Smaller heading size */
+    }
+  
+    .container button {
+      font-size: 0.9rem; /* Adjust button font size */
+    }
+  }
+  

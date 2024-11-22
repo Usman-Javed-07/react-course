@@ -15,8 +15,10 @@
 // import { RegistrationFrom } from "./components/Hooks/Registration"
 // import { RegistrationFromReact } from "./components/Hooks/RegistrationReact"
 // import { LoginForm  } from "./components/Hooks/LoginForm"
+//  import { ReactUseEffect } from "./components/Hooks/useEffect/index"
 
-import { ContactForm } from "./components/Hooks/ContactForm"
+import {Challange } from "./components/Hooks/useEffect/EffectChallange"
+// import { ContactForm } from "./components/Hooks/ContactForm"
 
 
 
@@ -38,9 +40,11 @@ export const App = ()=> {
    {/* <section>{<Todo/>}</section> */}
 
     {/* <Counter/> */}
-     
+      
+       <Challange/>
 
-     <ContactForm/>
+  {/* <ReactUseEffect/> */}
+     {/* <ContactForm/> */}
      {/* <LoginForm /> */}
   {/* <RegistrationFromReact/> */}
     {/* <RegistrationFrom/> */}
