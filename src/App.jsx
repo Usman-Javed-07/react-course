@@ -13,7 +13,10 @@
 // import { Counter } from "./components/Hooks/index"
 
 // import { RegistrationFrom } from "./components/Hooks/Registration"
-import { RegistrationFromReact } from "./components/Hooks/RegistrationReact"
+// import { RegistrationFromReact } from "./components/Hooks/RegistrationReact"
+// import { LoginForm  } from "./components/Hooks/LoginForm"
+
+import { ContactForm } from "./components/Hooks/ContactForm"
 
 
 
@@ -35,8 +38,11 @@ export const App = ()=> {
    {/* <section>{<Todo/>}</section> */}
 
     {/* <Counter/> */}
-  
-  <RegistrationFromReact/>
+     
+
+     <ContactForm/>
+     {/* <LoginForm /> */}
+  {/* <RegistrationFromReact/> */}
     {/* <RegistrationFrom/> */}
      {/* <State/> */}
      {/* <DerivedState/> */}

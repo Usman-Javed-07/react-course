@@ -22,14 +22,7 @@ export const RegistrationFromReact = () => {
 
     const handleFormSubmit = (event)=> {
         event.preventDefault()
-      const formData = {
-        // firstName,
-        // lastName, 
-        // email,
-        // password,
-        // phoneNumber,
-      }
-      console.log(user);
+       console.log(user);
       
     }
 
