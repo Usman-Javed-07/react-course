@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fb; /* Light background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Container Styling */
+.container {
+  background-color: #fff; /* White background for container */
+  padding: 40px 50px; /* Spacious padding */
+ /* Rounded corners for container */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  text-align: center; /* Center-align content */
+  max-width: 400px; /* Maximum width for container */
+  width: 100%; /* Full width for smaller screens */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Paragraph Styling */
+.container .counter p {
+  font-size: 1.2rem; /* Slightly larger font size for emphasis */
+  color: #555; /* Medium gray for text */
+  margin: 10px 0 20px; /* Spacing around the paragraph */
+  font-weight: 500; /* Medium weight for text */
+  letter-spacing: 1px; /* Subtle spacing for modern look */
+}
+
+/* Odometer Styling */
+.container .odometer {
+  font-size: 3rem; /* Large font size for the counter */
+  font-weight: 700; /* Bold font weight for emphasis */
+  color: #007bff; /* Primary blue color for standout */
+  margin: 10px 0; /* Spacing around the odometer */
+  letter-spacing: 2px; /* Slightly spaced letters for impact */
+  animation: countFade 1s ease-in-out; /* Smooth fade-in animation */
+}
+
+/* Title Styling */
+.container .counter .title {
+  font-size: 1.5rem; /* Medium-large font size for title */
+  color: #333; /* Dark gray for strong emphasis */
+  font-weight: 600; /* Slightly bold for impact */
+  margin-top: 20px; /* Space above the title */
+  line-height: 1.5; /* Balanced line height */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  letter-spacing: 1px; /* Slight spacing for modern feel */
+}
+
+/* Animation for Counter */
+@keyframes countFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px); /* Slight upward motion */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Settle into place */
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .container .odometer {
+    font-size: 2.5rem; /* Slightly smaller counter for mobile */
+  }
+
+  .container .counter p {
+    font-size: 1rem; /* Reduce font size for text */
+  }
+
+  .container .counter .title {
+    font-size: 1.2rem; /* Reduce title size for smaller screens */
+  }
+}

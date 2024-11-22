@@ -17,7 +17,12 @@
 // import { LoginForm  } from "./components/Hooks/LoginForm"
 //  import { ReactUseEffect } from "./components/Hooks/useEffect/index"
 
-import {Challange } from "./components/Hooks/useEffect/EffectChallange"
+// import {Challange } from "./components/Hooks/useEffect/EffectChallange"
+
+// import { Clean  } from "./components/Hooks/useEffect/cleanUp"
+
+import { HowToFetchApi }  from "./components/Hooks/useEffect/HowToFetchApiData"
+
 // import { ContactForm } from "./components/Hooks/ContactForm"
 
 
@@ -41,7 +46,11 @@ export const App = ()=> {
 
     {/* <Counter/> */}
       
-       <Challange/>
+       {/* <Challange/> */}
+
+       {/* <Clean /> */}
+
+      <HowToFetchApi/>
 
   {/* <ReactUseEffect/> */}
      {/* <ContactForm/> */}
