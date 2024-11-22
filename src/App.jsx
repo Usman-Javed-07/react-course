@@ -10,7 +10,10 @@
 // import { ToggleSwitch  } from "./projects/ToggleSwitch/ToggleSwitch"
 // import { Todo } from "./projects/Todo/todo"
 //  import { ShortCircuitExample  } from "./components/Hooks/shortCircuit"
-import { Counter } from "./components/Hooks/index"
+// import { Counter } from "./components/Hooks/index"
+
+// import { RegistrationFrom } from "./components/Hooks/Registration"
+import { RegistrationFromReact } from "./components/Hooks/RegistrationReact"
 
 
 
@@ -31,7 +34,10 @@ export const App = ()=> {
      {/* <EventHandling /> */}
    {/* <section>{<Todo/>}</section> */}
 
-    <Counter/>
+    {/* <Counter/> */}
+  
+  <RegistrationFromReact/>
+    {/* <RegistrationFrom/> */}
      {/* <State/> */}
      {/* <DerivedState/> */}
      {/* <LiftState/> */}
