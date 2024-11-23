@@ -26,7 +26,10 @@
 // import { UseRef  } from "./components/Hooks/useRef/useref"
 // import { ForwardRef   } from "./components/Hooks/useRef/forwaredRef"
 
-import { UseId } from "./components/Hooks/useid/useid"
+// import { UseId } from "./components/Hooks/useid/useid"
+// import {  PropDrilling  } from "./components/propDrilling"
+import { BioProvider } from "./components/contextApi/index"
+import { Home } from "./components/contextApi/Home"
 
 // import { ContactForm } from "./components/Hooks/ContactForm"
 
@@ -58,7 +61,11 @@ export const App = ()=> {
       {/* <HowToFetchApi/> */}
       {/* <UseRef /> */}
       {/* <ForwardRef /> */}
-      <UseId/>
+      {/* <UseId/> */}
+      {/* < PropDrilling /> */}
+      <BioProvider> 
+         <Home/>
+         </BioProvider>
 
   {/* <ReactUseEffect/> */}
      {/* <ContactForm/> */}
