@@ -21,7 +21,12 @@
 
 // import { Clean  } from "./components/Hooks/useEffect/cleanUp"
 
-import { HowToFetchApi }  from "./components/Hooks/useEffect/HowToFetchApiData"
+// import { HowToFetchApi }  from "./components/Hooks/useEffect/HowToFetchApiData"
+
+// import { UseRef  } from "./components/Hooks/useRef/useref"
+// import { ForwardRef   } from "./components/Hooks/useRef/forwaredRef"
+
+import { UseId } from "./components/Hooks/useid/useid"
 
 // import { ContactForm } from "./components/Hooks/ContactForm"
 
@@ -50,7 +55,10 @@ export const App = ()=> {
 
        {/* <Clean /> */}
 
-      <HowToFetchApi/>
+      {/* <HowToFetchApi/> */}
+      {/* <UseRef /> */}
+      {/* <ForwardRef /> */}
+      <UseId/>
 
   {/* <ReactUseEffect/> */}
      {/* <ContactForm/> */}
