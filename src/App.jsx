@@ -28,11 +28,11 @@
 
 // import { UseId } from "./components/Hooks/useid/useid"
 // import {  PropDrilling  } from "./components/propDrilling"
-import { BioProvider } from "./components/contextApi/index"
-import { Home } from "./components/contextApi/Home"
+// import { BioProvider } from "./components/contextApi/index"
+// import { Home } from "./components/contextApi/Home"
 
 // import { ContactForm } from "./components/Hooks/ContactForm"
-
+import { DarkLight, ThemeProvider } from "./components/contextApi/DarkLight"
 
 
 // export const App = ()=>{
@@ -63,9 +63,13 @@ export const App = ()=> {
       {/* <ForwardRef /> */}
       {/* <UseId/> */}
       {/* < PropDrilling /> */}
-      <BioProvider> 
+      {/* <BioProvider> 
          <Home/>
-         </BioProvider>
+         </BioProvider> */}
+  <ThemeProvider>
+   <DarkLight/>
+  </ThemeProvider>
+
 
   {/* <ReactUseEffect/> */}
      {/* <ContactForm/> */}
