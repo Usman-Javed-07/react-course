@@ -12,6 +12,8 @@
 //  import { ShortCircuitExample  } from "./components/Hooks/shortCircuit"
 // import { Counter } from "./components/Hooks/index"
 
+import { UseReducrerComp } from "./components/Hooks/useReducer/index"
+
 // import { RegistrationFrom } from "./components/Hooks/Registration"
 // import { RegistrationFromReact } from "./components/Hooks/RegistrationReact"
 // import { LoginForm  } from "./components/Hooks/LoginForm"
@@ -32,7 +34,7 @@
 // import { Home } from "./components/contextApi/Home"
 
 // import { ContactForm } from "./components/Hooks/ContactForm"
-import { DarkLight, ThemeProvider } from "./components/contextApi/DarkLight"
+// import { DarkLight, ThemeProvider } from "./components/contextApi/DarkLight"
 
 
 // export const App = ()=>{
@@ -53,6 +55,8 @@ export const App = ()=> {
    {/* <section>{<Todo/>}</section> */}
 
     {/* <Counter/> */}
+
+    <UseReducrerComp/>
       
        {/* <Challange/> */}
 
@@ -66,9 +70,9 @@ export const App = ()=> {
       {/* <BioProvider> 
          <Home/>
          </BioProvider> */}
-  <ThemeProvider>
+  {/* <ThemeProvider>
    <DarkLight/>
-  </ThemeProvider>
+  </ThemeProvider> */}
 
 
   {/* <ReactUseEffect/> */}
